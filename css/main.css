@@ -1,0 +1,27 @@
+html {
+  font-size: 24px
+}
+body{
+  background-color: tomato;
+  margin: 8;
+}
+h1{
+  font-size: 4rem;
+}
+a:link, a:visited {
+  color: black;
+}
+a:hover a:active{
+  color:yellow;
+}
+li {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+ul li {
+   font-size: 1rem;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+html body ul li a:link
