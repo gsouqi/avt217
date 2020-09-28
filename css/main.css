@@ -6,6 +6,7 @@ body{
   margin: 8;
 }
 h1{
+  font-family: 'Monoton', cursive;
   font-size: 4rem;
 }
 a:link, a:visited {
