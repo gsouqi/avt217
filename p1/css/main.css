@@ -9,15 +9,15 @@ body{
 h1{
   font-family: 'Fredericka the Great', cursive;
   color: white;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 h2{
   color: white;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 a:link, a:visited {
-  color: white;
+  color: #B22222;
 }
 p{
-  color: red;
+  color: white;
 }

@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+main {
+
+}
+div {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  margin: 50px;
+  float: left;
+}
+.shape1{
+  width: 50px;
+  height: 100px;
+  background-color: red;
+  margin: -15px;
+  float: left;
+}
+
+.shape2{
+  width: 50px;
+  height: 100px;
+  background-color: blue;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  float: left;
+}
+.shape3{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  margin: 5px;
+  float: left;
+  border-radius: 50%;
+  opacity: .5;
+}
+.shape4{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  float: left;
+}
+.shape5{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  float: left;
+}
