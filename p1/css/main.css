@@ -3,8 +3,8 @@ html {
 }
 body{
   background-color: LightSeaGreen;
-  margin: 5;
-
+  margin-top: 70px;
+  margin-left: 60px;
 }
 h1{
   font-family: 'Fredericka the Great', cursive;
@@ -12,12 +12,20 @@ h1{
   font-size: 5rem;
 }
 h2{
+  font-family: 'Fredericka the Great', cursive;
   color: white;
   font-size: 3rem;
 }
-a:link, a:visited {
+a:link, a:visited{
+  color: DarkSlateGray;
+  text-decoration: none;
+}
+a:hover, a:active {
   color: #B22222;
 }
 p{
-  color: white;
+  color: whiteSmoke;
+  font-family: Georgia, serif;
+  font-size: 36px;
+  text-align: left;
 }
