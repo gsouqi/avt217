@@ -1,13 +1,33 @@
+*{
+  box-sizing: border-box;
+}
 html {
   font-size: 24px
+}
+header{
+  width: 75vw;
+  margin: 25px auto;
+
+}
+main{
+  width: 75vw;
+  margin: 25px auto;
+  display: flow-root;
+}
+.col {
+  width: 50%;
+  float: left;
+}
+h1{
+  font-family: 'Monoton', cursive;
+  font-size: 5rem;
+}
+h2{
+  font-family: 'Monoton', cursive;
 }
 body{
   background-color: lavender;
   margin: 8;
-}
-h1{
-  font-family: 'Monoton', cursive;
-  font-size: 4rem;
 }
 a:link, a:visited {
   color: black;
@@ -17,6 +37,7 @@ a:hover a:active{
 }
 li {
   font-size: 2rem;
+  font-family: Verdana, sans-serif;
   margin-bottom: 10px;
 }
 ul li {
@@ -28,4 +49,19 @@ ul li {
 img{
   max-width: 100%;
 }
-html body ul li a:link
+
+@media screen and (max-width: 850px) {
+  .col{
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  header{
+    width: 90px;
+  }
+  main{
+    width: 90px;
+  }
+  h1{
+    font-size: 3rem;
+  }
+}
