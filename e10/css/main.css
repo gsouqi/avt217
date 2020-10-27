@@ -25,3 +25,8 @@ body{
 .black{
   background-color: #333333;
 }
+main {display: flow-root;}
+.rCol, .lCol{
+  width: 45%;
+  float: left;
+}
