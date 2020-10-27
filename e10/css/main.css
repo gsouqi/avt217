@@ -52,3 +52,36 @@ body{
   margin: 10px;
   background-color: red;
 }
+.blog{
+  width: 1000px;
+  display: flow-root;
+  margin: 25px auto;
+}
+.head{
+  width: 940px;
+  height: 200px;
+  float: left;
+  margin: 100px 10px;
+  background-color: pink;
+}
+.rightcolumn{
+  width: 725px;
+  height: 450px;
+  float: left;
+  margin: 10px;
+  background-color: lavender;
+}
+.leftcolumn{
+  width: 200px;
+  height: 300px;
+  float: left;
+  margin: 10px;
+  background-color: magenta;
+}
+.textbox{
+  width: 725px;
+  height: 50px;
+  float: left;
+  margin: 10px 10px 100px 10px;
+  background-color: purple;
+}
