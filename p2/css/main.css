@@ -5,3 +5,47 @@ body{
   margin: 25px;
   background-color: #FFEBCD;
 }
+img{
+  width: 100%;
+}
+header{
+  background-color: whiteSmoke;
+  padding: 50px;
+  display: flow-root;
+}
+main{
+  background-color: #FFEBCD;
+}
+footer{
+  background-color: red;
+}
+nav{
+  float: left;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 15;
+  overflow: hidden;
+  background-color: OliveDrab;
+}
+li{
+  float: left;
+  margin-left: 0 25px;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 40px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #FFEBCD;
+}
+.head{
+  background: url(../images/coverImage.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-color: #FFEBCD;
+  padding:300px 0;
+}
