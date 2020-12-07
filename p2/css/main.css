@@ -3,7 +3,7 @@
 }
 body{
   margin: 25px;
-  background-color: #FFEBCD;
+  background-color: BlanchedAlmond;
 }
 img{
   width: 400px;
@@ -84,6 +84,10 @@ a {
 a:hover, a:active {
   background-color: LightSteelBlue;
 }
+img{
+  max-width: 100%;
+  height: auto;
+}
 .head{
   background: url(../images/coverImage.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -100,8 +104,9 @@ a:hover, a:active {
   display: table;
   clear: both;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1536px) {
   .column{
-    width: 100%;
+    width: 33.33%;
     margin-bottom: 25px;
+
   }
