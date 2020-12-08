@@ -6,8 +6,8 @@ body{
   background-color: BlanchedAlmond;
 }
 img{
-    width: 33.33%;
-    height: 33.33%;
+    width: auto;
+    height: 400px;
 }
 header{
   font-family: 'Berkshire Swash', cursive;
@@ -92,29 +92,28 @@ a:hover, a:active {
   background-color: #FFEBCD;
   padding:300px 0;
 }
-.column1{
-  float: left;
-  width: 100%;
-  padding: 10px;
-  margin: 10px;
+.row{
+  display: flex;
 }
-.column2{
-  float: right;
+.column{
+  flex: 33.33%;
   width: 100%;
   padding: 10px;
-  margin: 10px;
 }
 .row::after {
   content: "";
   display: table;
   clear: both;
 }
-@media screen and (max-width: 320px) {
-  img{
-    max-width: 100%;
-    height: auto;
-    }
+@media screen and (max-width: 600px) {
+.column{
+  width: 100%
+}
+
   h4{
     font-size: 16px;
+  }
+  body{
+    background-color: red;
   }
   }
