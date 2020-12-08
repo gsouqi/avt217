@@ -38,7 +38,6 @@ h2{
   font-size: 6rem;
   color: DarkOliveGreen;
   margin: 30px;
-
 }
 h3{
   font-family: 'Raleway', sans-serif;
@@ -92,6 +91,15 @@ a:hover, a:active {
   background-size: cover;
   background-color: #FFEBCD;
   padding:300px 0;
+}
+.page{
+  background-color: OliveDrab;
+  margin: 15px;
+  display: flow-root;
+}
+.pic{
+  float: left;
+  margin: 15px;
 }
 .row{
   display: flex;
