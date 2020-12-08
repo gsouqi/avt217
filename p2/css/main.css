@@ -7,7 +7,7 @@ body{
 }
 img{
     width: 100%;
-    max-width: 400px
+    max-width: 400px;
     height: auto;
 }
 header{
@@ -30,7 +30,7 @@ nav{
   margin: 0;
 }
 main{
-  background-color: BlanchedAlmond;
+  display: flow-root;
 }
 
 h2{
@@ -98,7 +98,7 @@ a:hover, a:active {
 }
 .column{
   flex: 33.33%;
-  width: 100%;
+  width: 33.33%;
   padding: 10px;
 }
 .row::after {
@@ -108,13 +108,13 @@ a:hover, a:active {
 }
 @media screen and (max-width: 600px) {
 
-.row{
+.column{
   width: 100%
 }
-img{
+/*img{
   max-width: 100%;
   height:auto;
-}
+}*/
 h4{
   font-size: 16px;
 }
