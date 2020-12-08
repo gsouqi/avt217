@@ -7,7 +7,7 @@ body{
 }
 img{
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
     height: auto;
 }
 header{
@@ -94,8 +94,8 @@ a:hover, a:active {
 }
 .page{
   background-color: OliveDrab;
-  margin: 15px;
-  display: flow-root;
+  margin: 0;
+  float: left;
 }
 .pic{
   float: left;
@@ -103,6 +103,7 @@ a:hover, a:active {
 }
 .row{
   display: flex;
+  margin: 25px auto;
 }
 .column{
   flex: 33.33%;
