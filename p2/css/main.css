@@ -6,8 +6,9 @@ body{
   background-color: BlanchedAlmond;
 }
 img{
-    width: auto;
-    height: 400px;
+    width: 100%;
+    max-width: 400px
+    height: auto;
 }
 header{
   font-family: 'Berkshire Swash', cursive;
@@ -49,7 +50,7 @@ h3{
 h4{
   font-family: 'Raleway', sans-serif;
   color: OliveDrab;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 p{
   font-family: 'Raleway', sans-serif;
@@ -106,14 +107,18 @@ a:hover, a:active {
   clear: both;
 }
 @media screen and (max-width: 600px) {
-.column{
+
+.row{
   width: 100%
 }
-
-  h4{
-    font-size: 16px;
-  }
-  body{
-    background-color: red;
-  }
-  }
+img{
+  max-width: 100%;
+  height:auto;
+}
+h4{
+  font-size: 16px;
+}
+p{
+  font-size: 20px;
+}
+}
